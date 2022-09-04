@@ -1,0 +1,21 @@
+@media screen and (max-width:768px) {
+    #header{
+        height: 95vh;
+    }
+    .navbar-container{
+        width: 100%;
+    }
+    .header-text {
+        text-align: center;
+        position:sticky ;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .logo {
+        justify-content: center;
+    }
+    .navbar-menu {
+        display: none;
+    }
+}
